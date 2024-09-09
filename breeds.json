@@ -1,0 +1,58 @@
+[
+    {
+        "breedId": "B101",
+        "breedName": "Golden Retriever",
+        "description": "Friendly, intelligent, and devoted. Great family dog.",
+        "size": "Large",
+        "lifespan": "10-12 years",
+        "origin": "Scotland",
+        "imageUrl": "https://images.dog.ceo/breeds/retriever-golden/n02099601_1010.jpg"
+        
+    },
+    {
+        "breedId": "B102",
+        "breedName": "Bulldog",
+        "description": "Courageous, friendly, and calm.",
+        "size": "Medium",
+        "lifespan": "8-10 years",
+        "origin": "England",
+        "imageUrl": "https://images.dog.ceo/breeds/bulldog-french/n02108915_2835.jpg"
+
+    },
+    {
+        "breedId": "B103",
+        "breedName": "Beagle",
+        "description": "Curious, friendly, and merry.",
+        "size": "Medium",
+        "lifespan": "12-15 years",
+        "origin": "England",
+        "imageUrl": "https://images.dog.ceo/breeds/beagle/n02088364_14863.jpg"
+    },
+    {
+        "breedId": "B104",
+        "breedName": "Poodle",
+        "description": "Intelligent, active, and alert.",
+        "size": "Small to Medium",
+        "lifespan": "12-15 years",
+        "origin": "Germany/France",
+        "imageUrl": "https://images.dog.ceo/breeds/puggle/IMG_151824.jpg"
+    },
+    {
+        "breedId": "B105",
+        "breedName": "German Shepherd",
+        "description": "Confident, courageous, and smart.",
+        "size": "Large",
+        "lifespan": "9-13 years",
+        "origin": "Germany",
+        "imageUrl": "https://images.dog.ceo/breeds/germanshepherd/n02106662_13912.jpg"
+    },
+    {
+        "breedId": "B106",
+        "breedName": "Dachshund",
+        "description": "Lively, intelligent, and courageous.",
+        "size": "Small",
+        "lifespan": "12-16 years",
+        "origin": "Germany",
+        "imageUrl": "https://images.dog.ceo/breeds/germanshepherd/n02106662_13912.jpg"
+    }
+]

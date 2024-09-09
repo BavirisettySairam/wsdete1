@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breeds</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dog Breeds Information</h1>
+    </header>
+
+    <div class="breed-container">
+        
+    </div>
+
+    <script>
+        fetch('breeds.json')
+            .then(response => response.json())
+            .then(data => {
+                const breedContainer = document.querySelector('.breed-container');
+                data.forEach(breed => {
+                    const breedElement = document.createElement('div');
+                    breedElement.classList.add('breed');
+
+                    breedElement.innerHTML = `
+                        <h2>${breed.breedName}</h2>
+                        <p><strong>Description:</strong> ${breed.description}</p>
+                        <p><strong>Size:</strong> ${breed.size}</p>
+                        <p><strong>Lifespan:</strong> ${breed.lifespan}</p>
+                        <p><strong>Origin:</strong> ${breed.origin}</p>
+                        <img src="${breed.imageUrl}" alt="${breed.breedName}" style="max-width: 300px; height: auto;">
+                    `;
+
+                    breedContainer.appendChild(breedElement);
+                });
+            })
+            .catch(error => console.error('Error loading breeds data:', error));
+    </script>
+
+    <footer>
+        <p>&copy; 2024 Dog Breed App. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
